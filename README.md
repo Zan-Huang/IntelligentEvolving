@@ -19,6 +19,10 @@ own bodies using information from a limited set of sensorial inputs. The agent's
 a randomly mutated process such that the actions determined by the agent brain are separated from
 their physical phenotype. 
 
+![Diagram_of_a_Markov_blanket svg](https://github.com/Zan-Huang/IntelligentEvolving/assets/10505540/d6b59c05-a8e5-4921-a357-5a37fae10e61)
+
+![1_EQ-tDj-iMdsHlGKUR81Xgw](https://github.com/Zan-Huang/IntelligentEvolving/assets/10505540/46a11783-35c3-4d13-8118-1b9893d6f68d)
+
 The Q-Learning paradigm I have set up gives agents abilities within their
 lifetimes to master their environment and achieve long-standing reproduction goals through
 maximization of relevant rewards, while leaving the purely physical body in the hands of natural
