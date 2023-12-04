@@ -1,9 +1,9 @@
 # IntelligentEvolving
 
-<img width="300" alt="example" src="https://github.com/Zan-Huang/IntelligentEvolving/assets/10505540/b06645d7-389b-4a34-9610-3b3f787f48be">
-
-
 A Study of Evolution and Markov Blankets
+
+
+<img width="250" alt="example" src="https://github.com/Zan-Huang/IntelligentEvolving/assets/10505540/b06645d7-389b-4a34-9610-3b3f787f48be">
 
 There exists a video from 2020 by David Randall Miller where he programs creatures in an
 artificial life program to simulate evolution. The behavior of these beings are determined by a genetic
