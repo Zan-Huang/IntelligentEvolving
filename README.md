@@ -2,15 +2,14 @@
 
 A Study of Evolution and Markov Blankets
 
-
-<img width="250" alt="example" src="https://github.com/Zan-Huang/IntelligentEvolving/assets/10505540/b06645d7-389b-4a34-9610-3b3f787f48be">
-
 There exists a video from 2020 by David Randall Miller where he programs creatures in an
 artificial life program to simulate evolution. The behavior of these beings are determined by a genetic
 code specifying a Markov Chain brain of the agents in the simulation. The Markov Chains in those
 agents have a list of sensory and motor states connected by different weights to determine their
 behavior in the environment. David’s genetic code mutates and causes his agents to exhibit a range of
 complex behaviors through artificial natural selection.
+
+<img width="250" alt="example" src="https://github.com/Zan-Huang/IntelligentEvolving/assets/10505540/b06645d7-389b-4a34-9610-3b3f787f48be">
 
 This Agent Based Evolutionary Model here is inspired but quite different from the one in the
 video. It uses a simplification in parameter specification (but not in parameter size) of the agent's brain
