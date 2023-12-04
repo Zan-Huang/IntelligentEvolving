@@ -1,2 +1,2 @@
 # IntelligentEvolving
-A study of evolution and Markov Blankets
+A Study of Evolution and Markov Blankets
