@@ -7,6 +7,7 @@ code specifying a Markov Chain brain of the agents in the simulation. The Markov
 agents have a list of sensory and motor states connected by different weights to determine their
 behavior in the environment. David’s genetic code mutates and causes his agents to exhibit a range of
 complex behaviors through artificial natural selection.
+
 This Agent Based Evolutionary Model here is inspired but quite different from the one in the
 video. It uses a simplification in parameter specification (but not in parameter size) of the agent's brain
 in order to carefully investigate a relationship between a changing environment and the creatures that
@@ -16,7 +17,9 @@ sensors, motors movements, and their relations to one another through transition
 imbued each agent with their own Q-Learning paradigm so they could learn how to interact with their
 own bodies using information from a limited set of sensorial inputs. The agent's body evolution is still
 a randomly mutated process such that the actions determined by the agent brain are separated from
-their physical phenotype. The Q-Learning paradigm I have set up gives agents abilities within their
+their physical phenotype. 
+
+The Q-Learning paradigm I have set up gives agents abilities within their
 lifetimes to master their environment and achieve long-standing reproduction goals through
 maximization of relevant rewards, while leaving the purely physical body in the hands of natural
 selection. The evolutionary dynamics of the “brain” and body become a corrective process in
@@ -42,8 +45,10 @@ die off or curtailing within the first twenty generations. This is due to the in
 of food resources and its rapid depletion through mass consumption. The idea is that agents who can
 adapt and evolve healthily given a certain mutation rate can more easily survive in a rapidly changing
 low resource environment.
+
 As expected, all agents died out before 120 generations for the 0.25 food regeneration rate
 environment.
+
 However, in the ideal 0.5 food regeneration environment, non mutation runs completely dies
 off before 200 generations, while those with mutations survived past the simulation end at 450
 generations. This result not only speaks to the intuitive importance of mutation in natural selection of
@@ -53,7 +58,9 @@ yielded significantly lower populations than those runs with higher mutation rat
 In the most difficult 0.25 food regeneration environment, the average population and survival
 time was highest and longest for the highest mutation value of 0.5. For the optimal 0.5 food
 regeneration environment, the highest rates of mutation (0.25 and 0.5) performed better than low
-rates of 0.05 or 0.1. The ability to mutate at a higher rate has a distinct advantage, even if is disruptive
+rates of 0.05 or 0.1.
+
+The ability to mutate at a higher rate has a distinct advantage, even if is disruptive
 to an agent's expected behavior, as the learning algorithm would have to operate on a changed body.
 The intuitive finding is that a mutation is necessary for adaptation, even if agents are already
 able to navigate their environment and transit refined information across generations. The slightly less
@@ -63,6 +70,7 @@ Even though its clear that non mutated agent populations would die off and that 
 mutation agents would perform better in changing environments, we must remember that these agents
 also have an epigenetic-like learning algorithm that is capable of learning within their own lifetimes and
 are able to transmit their behavior cross generation.
+
 Thus, the really crucial finding, even though separate from the central question at hand, is that
 placing a Markov Blanket in between the agents physical movement and an agents adaptive behavior
 enforces the two aspects of this model to jointly optimize for a certain maximization even when the
